@@ -2,7 +2,7 @@ p {
 	color: red;
 }
 
-.title {
+h3.title {
 	color: red;
 }
 
@@ -16,4 +16,91 @@ div h4 {
 
 div > span {
 	color: red;
+}
+
+div {
+	border-color: #ff0000;
+}
+
+div {
+	border-color: #00ff00;
+}
+
+div {
+  border-color: rgba(0,0,0,.5);
+}
+
+div {
+  border-color: #ffa07a;
+}
+
+
+.wrap {
+  display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.wrap {
+  display: grid;
+	grid-template-columns: 25% 25% 50%;
+}
+
+
+.wrap {
+	display: grid;
+	grid-template-columns: 20% 80%;
+}
+
+/* .content {
+	border: 1px solid red;
+} */
+
+.wrap {
+  display: grid;
+	grid-template-columns: 1fr 6fr 3fr;
+}
+
+/* .content {
+	border: 1px solid red;
+}
+
+.ads {
+	border: 1px solid green;
+}
+
+.sidebar {
+	border: 1px solid blue;
+} */
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+}
+
+.productsgroup {
+	display: grid;
+	grid-template-columns: 27.5% 20% 15% 12.5% 10% 7.5% 5%;
+	grid-column-gap: 20px;
+
+}
+
+.products {
+	background-color: #001a66;
+	color: white;
+	height: 100px;
+}
+
+.grid-7 {
+	display: grid;
+	grid-template-columns: 25% 75%;
+	grid-template-rows: 400px;
+}
+
+.sidebar2 {
+	background-color: orange;
+}
+
+.content2 {
+	background-color: gray;
 }
