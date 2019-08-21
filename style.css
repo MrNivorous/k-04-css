@@ -1,0 +1,19 @@
+p {
+	color: red;
+}
+
+.title {
+	color: red;
+}
+
+div h4 {
+	color: red;
+}
+
+#main {
+	color: red;
+}
+
+div > span {
+	color: red;
+}
