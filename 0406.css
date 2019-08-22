@@ -16,3 +16,23 @@
 	border: 2px solid red;
 	border-radius: 25px 25px 0px 0px;
 }
+
+.orangediv {
+	margin-top: 30px;
+	background-color: #fa5f43;
+	height: 300px;
+	width: 300px;
+	border-radius: 15px;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-column-gap: 15%;
+}
+
+.whitelines {
+	background-color: white;
+	margin-top: 40%;
+	margin-left: 70%;
+	height: 80%;
+	width: 100%;
+	border-radius: 15px;
+}
