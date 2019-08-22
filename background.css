@@ -1,4 +1,4 @@
 div {
-	background-image: beach.png;
+	background-image: url('beach.png');
 	background-repeat: no-repeat;
 }
