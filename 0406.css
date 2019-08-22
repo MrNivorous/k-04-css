@@ -36,3 +36,23 @@
 	width: 100%;
 	border-radius: 15px;
 }
+
+.orangediv2 {
+	margin-top: 30px;
+	background-color: #fa5f43;
+	height: 300px;
+	width: 300px;
+	border-radius: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr
+}
+
+.whitesquares {
+	background-color: white;
+	height: 60%;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 20%;
+	border-radius: 15px;
+}
