@@ -11,3 +11,38 @@
 	background-size: 10% auto;
 	height: 100vh;
 }
+
+.red {
+	background-color: rgba(255, 0, 0, 0.5);
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr 6fr;
+	grid-column-gap: 40px;
+}
+
+.forest1 {
+	margin-top: 200px;
+	background-image: url('images/forest.jpg');
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+}
+
+.forest2 {
+	background-image: url('images/forest.jpg');
+	height: 400px;
+	width: 100px;
+	background-size:cover;
+	background-position: center;
+}
+
+.forest3 {
+	margin-top: 300px;
+	margin-right: 10px;
+	background-image: url('images/forest.jpg');
+	height:100px;
+	width: 500px;
+	background-position: center;
+
+}
