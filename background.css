@@ -1,4 +1,13 @@
-div {
+.beach {
 	background-image: url('beach.png');
 	background-repeat: no-repeat;
+}
+
+.tropical {
+	/* height: 100px;
+	width: 100px; */
+
+	background-image: url('images/tropical.jpg');
+	background-size: 10% auto;
+	height: 100vh;
 }
