@@ -1,0 +1,40 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-family: 'Varela Round', sans-serif;
+	border-radius: 20px;
+
+}
+.card {
+	border: 1px solid lightgray;
+	width: 75%;
+	border-radius: 20px;
+	overflow:hidden;
+	cursor: pointer;
+}
+
+.card:hover {
+	box-shadow: 1px 5px 20px rgba(0,0,0,.5)
+}
+.card img {
+	width: 100%;
+}
+
+.text {
+	padding: 20px;
+	margin-left: 20px;
+}
+
+h2 {
+	color: gray;
+	font-weight: bold;
+}
+h3 {
+	color: gray;
+	font-weight: 800;
+}
+
+h4 {
+	color: gray;
+	font-weight: 500;
+}
