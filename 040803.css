@@ -1,0 +1,28 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.box {
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.lighter {
+	color: gray;
+}
+
+.lighter strong {
+	font-weight: 2000;
+}
+
+
+a {
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	color: red;
+}
